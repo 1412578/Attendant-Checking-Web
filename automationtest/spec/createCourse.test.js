@@ -35,7 +35,7 @@ describe('Chức năng tạo khóa học', function() {
         this.driver.quit().then(done);
     });
 
-    it('Nên đăng nhập', async function(done) {
+    it('Nên tạo khóa học thành công', async function(done) {
 
         const course = {
             name: "KCPM",
